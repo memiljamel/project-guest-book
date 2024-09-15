@@ -22,7 +22,7 @@ class GuestFeedbackController extends Controller
      */
     public function store(StoreFeedbackRequest $request): RedirectResponse
     {
-        $feedback = new Feedback();
+        $feedback = new Feedback;
         $feedback->description = $request->input('description');
         $feedback->type_feedback = $request->input('type_feedback');
         $feedback->save();

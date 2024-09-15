@@ -10,7 +10,7 @@ use Maatwebsite\Excel\Concerns\ShouldAutoSize;
 use Maatwebsite\Excel\Concerns\WithHeadings;
 use Maatwebsite\Excel\Concerns\WithMapping;
 
-class FeedbacksExport implements FromQuery, WithHeadings, WithMapping, ShouldAutoSize
+class FeedbacksExport implements FromQuery, ShouldAutoSize, WithHeadings, WithMapping
 {
     use Exportable;
 
@@ -39,7 +39,7 @@ class FeedbacksExport implements FromQuery, WithHeadings, WithMapping, ShouldAut
     /**
      * Map the data from the model to be included in the export file.
      *
-     * @param Feedback $feedback
+     * @param  Feedback  $feedback
      */
     public function map($feedback): array
     {

@@ -10,7 +10,7 @@ use Maatwebsite\Excel\Concerns\ShouldAutoSize;
 use Maatwebsite\Excel\Concerns\WithHeadings;
 use Maatwebsite\Excel\Concerns\WithMapping;
 
-class StaffsExport implements FromQuery, WithHeadings, WithMapping, ShouldAutoSize
+class StaffsExport implements FromQuery, ShouldAutoSize, WithHeadings, WithMapping
 {
     use Exportable;
 
@@ -44,7 +44,7 @@ class StaffsExport implements FromQuery, WithHeadings, WithMapping, ShouldAutoSi
     /**
      * Map the data from the model to be included in the export file.
      *
-     * @param Staff $staff
+     * @param  Staff  $staff
      */
     public function map($staff): array
     {

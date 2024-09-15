@@ -48,7 +48,7 @@ class DepartmentController extends Controller
      */
     public function store(StoreDepartmentRequest $request): RedirectResponse
     {
-        $department = new Department();
+        $department = new Department;
         $department->name = $request->input('name');
         $department->code = $request->input('code');
         $department->save();

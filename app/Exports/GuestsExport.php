@@ -10,7 +10,7 @@ use Maatwebsite\Excel\Concerns\ShouldAutoSize;
 use Maatwebsite\Excel\Concerns\WithHeadings;
 use Maatwebsite\Excel\Concerns\WithMapping;
 
-class GuestsExport implements FromQuery, WithHeadings, WithMapping, ShouldAutoSize
+class GuestsExport implements FromQuery, ShouldAutoSize, WithHeadings, WithMapping
 {
     use Exportable;
 
@@ -45,7 +45,7 @@ class GuestsExport implements FromQuery, WithHeadings, WithMapping, ShouldAutoSi
     /**
      * Map the data from the model to be included in the export file.
      *
-     * @param Guest $guest
+     * @param  Guest  $guest
      */
     public function map($guest): array
     {

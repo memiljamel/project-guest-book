@@ -56,7 +56,7 @@ class StaffController extends Controller
      */
     public function store(StoreStaffRequest $request): RedirectResponse
     {
-        $staff = new Staff();
+        $staff = new Staff;
         $staff->staff_number = $request->input('staff_number');
         $staff->name = $request->input('name');
         $staff->gender = $request->input('gender');

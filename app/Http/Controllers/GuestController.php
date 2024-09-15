@@ -57,7 +57,7 @@ class GuestController extends Controller
      */
     public function store(StoreGuestRequest $request): RedirectResponse
     {
-        $guest = new Guest();
+        $guest = new Guest;
         $guest->name = $request->input('name');
         $guest->gender = $request->input('gender');
         $guest->email = $request->input('email');

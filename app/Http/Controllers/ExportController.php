@@ -18,9 +18,9 @@ class ExportController extends Controller
     public function guests(ExtensionEnum $extension): BinaryFileResponse
     {
         return match ($extension) {
-            ExtensionEnum::PDF => (new GuestsExport())->download('guests.pdf', Excel::DOMPDF),
-            ExtensionEnum::EXCEL => (new GuestsExport())->download('guests.xlsx', Excel::XLSX),
-            ExtensionEnum::CSV => (new GuestsExport())->download('guests.csv', Excel::CSV),
+            ExtensionEnum::PDF => (new GuestsExport)->download('guests.pdf', Excel::DOMPDF),
+            ExtensionEnum::EXCEL => (new GuestsExport)->download('guests.xlsx', Excel::XLSX),
+            ExtensionEnum::CSV => (new GuestsExport)->download('guests.csv', Excel::CSV),
         };
     }
 
@@ -30,9 +30,9 @@ class ExportController extends Controller
     public function staffs(ExtensionEnum $extension): BinaryFileResponse
     {
         return match ($extension) {
-            ExtensionEnum::PDF => (new StaffsExport())->download('staffs.pdf', Excel::DOMPDF),
-            ExtensionEnum::EXCEL => (new StaffsExport())->download('staffs.xlsx', Excel::XLSX),
-            ExtensionEnum::CSV => (new StaffsExport())->download('staffs.csv', Excel::CSV),
+            ExtensionEnum::PDF => (new StaffsExport)->download('staffs.pdf', Excel::DOMPDF),
+            ExtensionEnum::EXCEL => (new StaffsExport)->download('staffs.xlsx', Excel::XLSX),
+            ExtensionEnum::CSV => (new StaffsExport)->download('staffs.csv', Excel::CSV),
         };
     }
 
@@ -42,9 +42,9 @@ class ExportController extends Controller
     public function departments(ExtensionEnum $extension): BinaryFileResponse
     {
         return match ($extension) {
-            ExtensionEnum::PDF => (new DepartmentsExport())->download('departments.pdf', Excel::DOMPDF),
-            ExtensionEnum::EXCEL => (new DepartmentsExport())->download('departments.xlsx', Excel::XLSX),
-            ExtensionEnum::CSV => (new DepartmentsExport())->download('departments.csv', Excel::CSV),
+            ExtensionEnum::PDF => (new DepartmentsExport)->download('departments.pdf', Excel::DOMPDF),
+            ExtensionEnum::EXCEL => (new DepartmentsExport)->download('departments.xlsx', Excel::XLSX),
+            ExtensionEnum::CSV => (new DepartmentsExport)->download('departments.csv', Excel::CSV),
         };
     }
 
@@ -54,9 +54,9 @@ class ExportController extends Controller
     public function feedbacks(ExtensionEnum $extension): BinaryFileResponse
     {
         return match ($extension) {
-            ExtensionEnum::PDF => (new FeedbacksExport())->download('feedbacks.pdf', Excel::DOMPDF),
-            ExtensionEnum::EXCEL => (new FeedbacksExport())->download('feedbacks.xlsx', Excel::XLSX),
-            ExtensionEnum::CSV => (new FeedbacksExport())->download('feedbacks.csv', Excel::CSV),
+            ExtensionEnum::PDF => (new FeedbacksExport)->download('feedbacks.pdf', Excel::DOMPDF),
+            ExtensionEnum::EXCEL => (new FeedbacksExport)->download('feedbacks.xlsx', Excel::XLSX),
+            ExtensionEnum::CSV => (new FeedbacksExport)->download('feedbacks.csv', Excel::CSV),
         };
     }
 }
