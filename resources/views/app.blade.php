@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>@yield('title') | {{ config('app.name', 'Laravel') }}</title>
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="{{ captcha_layout_stylesheet_url() }}" />
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @stack('styles')
 </head>
