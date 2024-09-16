@@ -6,6 +6,7 @@ use App\Enums\ExtensionEnum;
 use App\Exports\DepartmentsExport;
 use App\Exports\FeedbacksExport;
 use App\Exports\GuestsExport;
+use App\Exports\RouteStatisticsExport;
 use App\Exports\StaffsExport;
 use Maatwebsite\Excel\Excel;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
@@ -57,6 +58,18 @@ class ExportController extends Controller
             ExtensionEnum::PDF => (new FeedbacksExport)->download('feedbacks.pdf', Excel::DOMPDF),
             ExtensionEnum::EXCEL => (new FeedbacksExport)->download('feedbacks.xlsx', Excel::XLSX),
             ExtensionEnum::CSV => (new FeedbacksExport)->download('feedbacks.csv', Excel::CSV),
+        };
+    }
+
+    /**
+     * Export feedback data.
+     */
+    public function routeStatistics(ExtensionEnum $extension): BinaryFileResponse
+    {
+        return match ($extension) {
+            ExtensionEnum::PDF => (new RouteStatisticsExport)->download('route-statistics.pdf', Excel::DOMPDF),
+            ExtensionEnum::EXCEL => (new RouteStatisticsExport)->download('route-statistics.xlsx', Excel::XLSX),
+            ExtensionEnum::CSV => (new RouteStatisticsExport)->download('route-statistics.csv', Excel::CSV),
         };
     }
 }
