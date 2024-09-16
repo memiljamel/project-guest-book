@@ -21,7 +21,7 @@
 
                         @auth
                             <div class="block w-auto h-auto p-0 m-0 relative">
-                                <a href="" class="inline-block min-w-[64px] w-auto h-9 p-2 m-0 bg-transparent rounded button text-white text-center shadow-none align-middle truncate outline-none cursor-pointer transition duration-150 ease-in-out relative hover:bg-white/[0.04] active:bg-white/[0.10] focus:bg-white/[0.12] disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:!bg-transparent disabled:active:!bg-transparent disabled:focus:!bg-transparent">
+                                <a href="{{ route('dashboard.index') }}" class="inline-block min-w-[64px] w-auto h-9 p-2 m-0 bg-transparent rounded button text-white text-center shadow-none align-middle truncate outline-none cursor-pointer transition duration-150 ease-in-out relative hover:bg-white/[0.04] active:bg-white/[0.10] focus:bg-white/[0.12] disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:!bg-transparent disabled:active:!bg-transparent disabled:focus:!bg-transparent">
                                     {{ __('Dashboard') }}
                                 </a>
                             </div>

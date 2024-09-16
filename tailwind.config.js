@@ -25,15 +25,15 @@ export default {
                 '24dp': '0 24px 38px rgba(0, 0, 0, 0.14), 0 9px 46px rgba(0, 0, 0, 0.12), 0 11px 15px rgba(0, 0, 0, 0.20)',
             },
             colors: {
-                'primary': '#0D6EFD', // primary color
-                'anti-flash-white': '#F2F2F2', // background light
-                'chinese-black': '#121212', // background dark
-                'charleston-green': '#272727', // card dark
-                'dark-charcoal': '#323232', // toast | tooltip light
-                'lotion': '#FAFAFA', // toast | tooltip dark
-                'chinese-white': '#E0E0E0', // border light
-                'dark-liver': '#515151', // border dark
-                'error': '#DC2626', // error color
+                'primary': 'rgb(13, 110, 253)', /* primary color */
+                'anti-flash-white': 'rgb(242, 242, 242)', /* background light */
+                'chinese-black': 'rgb(18, 18, 18)', /* background dark */
+                'charleston-green': 'rgb(39, 39, 39)', /* card dark */
+                'dark-charcoal': 'rgb(50, 50, 50)', /* toast | tooltip light */
+                'lotion': 'rgb(250, 250, 250)', /* toast | tooltip dark */
+                'chinese-white': 'rgb(224, 224, 224)', /* border light */
+                'dark-liver': 'rgb(81, 81, 81)', /* border dark */
+                'error': 'rgb(220, 38, 38)', /* error color */
             },
         },
     },
@@ -43,4 +43,3 @@ export default {
         require('tailwind-clip-path'),
     ],
 }
-

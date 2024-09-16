@@ -6,6 +6,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.1",
+        "bilfeldt/laravel-route-statistics": "^3.4",
         "captcha-com/laravel-captcha": "4.*",
         "dompdf/dompdf": "^3.0",
         "guzzlehttp/guzzle": "^7.2",

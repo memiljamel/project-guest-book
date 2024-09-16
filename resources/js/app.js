@@ -1,4 +1,5 @@
 import {
+    Chart,
     Dropdown,
     initTE,
     Input,
@@ -332,6 +333,7 @@ tooltipList.map((tooltipItem) => {
 });
 
 initTE({
+    Chart,
     Dropdown,
     Input,
     Offcanvas,

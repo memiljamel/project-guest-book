@@ -17,7 +17,7 @@ class HomeController extends Controller
         $page = $request->query('page');
         $search = $request->query('search');
 
-        $guests = Guest::whereDate('created_at', today())
+        $guests = Guest::whereDate('created_at', '=', now())
             ->when($search, function (Builder $query, ?string $search) {
                 $query->where('name', 'LIKE', "%{$search}%")
                     ->orWhere('email', 'LIKE', "%{$search}%")
