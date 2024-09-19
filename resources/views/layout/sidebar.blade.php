@@ -9,7 +9,7 @@
 
         <ul class="block w-full py-2 pr-2 m-0 list-none shadow-none border-t border-solid border-chinese-white dark:border-dark-liver relative">
             <li class="block w-full h-auto p-0 m-0 overflow-hidden relative">
-                <a href="{{ route('dashboard.index') }}" class="group flex justify-between items-center gap-4 w-full h-12 py-3 px-5 m-0 text-black/[0.60] rounded-r-full no-underline outline-none whitespace-nowrap overflow-hidden select-none relative hover:bg-black/[0.04] active:bg-black/[0.10] focus:bg-black/[0.12] dark:text-white/[0.60] dark:hover:bg-white/[0.04] dark:active:bg-white/[0.10] dark:focus:bg-white/[0.12] open:bg-primary/[0.04] open:text-primary open:hover:bg-primary/[0.04] open:active:bg-primary/[0.10] open:focus:bg-primary/[0.12] dark:open:bg-primary dark:open:text-black dark:open:hover:bg-primary dark:open:active:bg-primary dark:open:focus:bg-primary" @if (request()->routeIs('dashboard.*')) open @endif>
+                <a href="{{ route('dashboard.index') }}" class="group flex justify-between items-center gap-4 w-full h-12 py-3 px-5 m-0 text-black/[0.60] rounded-r-full no-underline outline-none whitespace-nowrap overflow-hidden select-none relative hover:bg-black/[0.04] active:bg-black/[0.10] focus:bg-black/[0.12] dark:text-white/[0.60] dark:hover:bg-white/[0.04] dark:active:bg-white/[0.10] dark:focus:bg-white/[0.12] open:bg-primary/[0.04] open:text-primary open:hover:bg-primary/[0.04] open:active:bg-primary/[0.10] open:focus:bg-primary/[0.12] dark:open:bg-primary dark:open:text-black dark:open:hover:bg-primary dark:open:active:bg-primary dark:open:focus:bg-primary" data-te-ripple-init data-te-ripple-color="light" @if (request()->routeIs('dashboard.*')) open @endif>
                     <div class="inline-block min-w-[24px] w-auto h-auto p-0 m-0 relative">
                         <svg class="pointer-events-none w-full h-full fill-current" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
                             <path d="M0 0h24v24H0z" fill="none" />
@@ -26,7 +26,7 @@
             </li>
 
             <li class="block w-full h-auto p-0 m-0 overflow-hidden relative">
-                <a href="{{ route('guests.index') }}" class="group flex justify-between items-center gap-4 w-full h-12 py-3 px-5 m-0 text-black/[0.60] rounded-r-full no-underline outline-none whitespace-nowrap overflow-hidden select-none relative hover:bg-black/[0.04] active:bg-black/[0.10] focus:bg-black/[0.12] dark:text-white/[0.60] dark:hover:bg-white/[0.04] dark:active:bg-white/[0.10] dark:focus:bg-white/[0.12] open:bg-primary/[0.04] open:text-primary open:hover:bg-primary/[0.04] open:active:bg-primary/[0.10] open:focus:bg-primary/[0.12] dark:open:bg-primary dark:open:text-black dark:open:hover:bg-primary dark:open:active:bg-primary dark:open:focus:bg-primary" @if (request()->routeIs('guests.*')) open @endif>
+                <a href="{{ route('guests.index') }}" class="group flex justify-between items-center gap-4 w-full h-12 py-3 px-5 m-0 text-black/[0.60] rounded-r-full no-underline outline-none whitespace-nowrap overflow-hidden select-none relative hover:bg-black/[0.04] active:bg-black/[0.10] focus:bg-black/[0.12] dark:text-white/[0.60] dark:hover:bg-white/[0.04] dark:active:bg-white/[0.10] dark:focus:bg-white/[0.12] open:bg-primary/[0.04] open:text-primary open:hover:bg-primary/[0.04] open:active:bg-primary/[0.10] open:focus:bg-primary/[0.12] dark:open:bg-primary dark:open:text-black dark:open:hover:bg-primary dark:open:active:bg-primary dark:open:focus:bg-primary" data-te-ripple-init data-te-ripple-color="light" @if (request()->routeIs('guests.*')) open @endif>
                     <div class="inline-block min-w-[24px] w-auto h-auto p-0 m-0 relative">
                         <svg class="pointer-events-none w-full h-full fill-current" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
                             <rect fill="none" height="24" width="24" />
@@ -43,7 +43,7 @@
             </li>
 
             <li class="block w-full h-auto p-0 m-0 overflow-hidden relative">
-                <a href="{{ route('staffs.index') }}" class="group flex justify-between items-center gap-4 w-full h-12 py-3 px-5 m-0 text-black/[0.60] rounded-r-full no-underline outline-none whitespace-nowrap overflow-hidden select-none relative hover:bg-black/[0.04] active:bg-black/[0.10] focus:bg-black/[0.12] dark:text-white/[0.60] dark:hover:bg-white/[0.04] dark:active:bg-white/[0.10] dark:focus:bg-white/[0.12] open:bg-primary/[0.04] open:text-primary open:hover:bg-primary/[0.04] open:active:bg-primary/[0.10] open:focus:bg-primary/[0.12] dark:open:bg-primary dark:open:text-black dark:open:hover:bg-primary dark:open:active:bg-primary dark:open:focus:bg-primary" @if (request()->routeIs('staffs.*')) open @endif>
+                <a href="{{ route('staffs.index') }}" class="group flex justify-between items-center gap-4 w-full h-12 py-3 px-5 m-0 text-black/[0.60] rounded-r-full no-underline outline-none whitespace-nowrap overflow-hidden select-none relative hover:bg-black/[0.04] active:bg-black/[0.10] focus:bg-black/[0.12] dark:text-white/[0.60] dark:hover:bg-white/[0.04] dark:active:bg-white/[0.10] dark:focus:bg-white/[0.12] open:bg-primary/[0.04] open:text-primary open:hover:bg-primary/[0.04] open:active:bg-primary/[0.10] open:focus:bg-primary/[0.12] dark:open:bg-primary dark:open:text-black dark:open:hover:bg-primary dark:open:active:bg-primary dark:open:focus:bg-primary" data-te-ripple-init data-te-ripple-color="light" @if (request()->routeIs('staffs.*')) open @endif>
                     <div class="inline-block min-w-[24px] w-auto h-auto p-0 m-0 relative">
                         <svg class="pointer-events-none w-full h-full fill-current" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000">
                             <g><rect fill="none" height="24" width="24"/></g>
@@ -60,7 +60,7 @@
             </li>
 
             <li class="block w-full h-auto p-0 m-0 overflow-hidden relative">
-                <a href="{{ route('departments.index') }}" class="group flex justify-between items-center gap-4 w-full h-12 py-3 px-5 m-0 text-black/[0.60] rounded-r-full no-underline outline-none whitespace-nowrap overflow-hidden select-none relative hover:bg-black/[0.04] active:bg-black/[0.10] focus:bg-black/[0.12] dark:text-white/[0.60] dark:hover:bg-white/[0.04] dark:active:bg-white/[0.10] dark:focus:bg-white/[0.12] open:bg-primary/[0.04] open:text-primary open:hover:bg-primary/[0.04] open:active:bg-primary/[0.10] open:focus:bg-primary/[0.12] dark:open:bg-primary dark:open:text-black dark:open:hover:bg-primary dark:open:active:bg-primary dark:open:focus:bg-primary" @if (request()->routeIs('departments.*')) open @endif>
+                <a href="{{ route('departments.index') }}" class="group flex justify-between items-center gap-4 w-full h-12 py-3 px-5 m-0 text-black/[0.60] rounded-r-full no-underline outline-none whitespace-nowrap overflow-hidden select-none relative hover:bg-black/[0.04] active:bg-black/[0.10] focus:bg-black/[0.12] dark:text-white/[0.60] dark:hover:bg-white/[0.04] dark:active:bg-white/[0.10] dark:focus:bg-white/[0.12] open:bg-primary/[0.04] open:text-primary open:hover:bg-primary/[0.04] open:active:bg-primary/[0.10] open:focus:bg-primary/[0.12] dark:open:bg-primary dark:open:text-black dark:open:hover:bg-primary dark:open:active:bg-primary dark:open:focus:bg-primary" data-te-ripple-init data-te-ripple-color="light" @if (request()->routeIs('departments.*')) open @endif>
                     <div class="inline-block min-w-[24px] w-auto h-auto p-0 m-0 relative">
                         <svg class="pointer-events-none w-full h-full fill-current" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="000">
                             <path d="M0 0h24v24H0z" fill="none" />
@@ -79,7 +79,7 @@
 
         <ul class="block w-full py-2 pr-2 m-0 list-none shadow-none border-t border-solid border-chinese-white dark:border-dark-liver relative">
             <li class="block w-full h-auto p-0 m-0 overflow-hidden relative">
-                <a href="{{ route('feedbacks.index') }}" class="group flex justify-between items-center gap-4 w-full h-12 py-3 px-5 m-0 text-black/[0.60] rounded-r-full no-underline outline-none whitespace-nowrap overflow-hidden select-none relative hover:bg-black/[0.04] active:bg-black/[0.10] focus:bg-black/[0.12] dark:text-white/[0.60] dark:hover:bg-white/[0.04] dark:active:bg-white/[0.10] dark:focus:bg-white/[0.12] open:bg-primary/[0.04] open:text-primary open:hover:bg-primary/[0.04] open:active:bg-primary/[0.10] open:focus:bg-primary/[0.12] dark:open:bg-primary dark:open:text-black dark:open:hover:bg-primary dark:open:active:bg-primary dark:open:focus:bg-primary" @if (request()->routeIs('feedbacks.*')) open @endif>
+                <a href="{{ route('feedbacks.index') }}" class="group flex justify-between items-center gap-4 w-full h-12 py-3 px-5 m-0 text-black/[0.60] rounded-r-full no-underline outline-none whitespace-nowrap overflow-hidden select-none relative hover:bg-black/[0.04] active:bg-black/[0.10] focus:bg-black/[0.12] dark:text-white/[0.60] dark:hover:bg-white/[0.04] dark:active:bg-white/[0.10] dark:focus:bg-white/[0.12] open:bg-primary/[0.04] open:text-primary open:hover:bg-primary/[0.04] open:active:bg-primary/[0.10] open:focus:bg-primary/[0.12] dark:open:bg-primary dark:open:text-black dark:open:hover:bg-primary dark:open:active:bg-primary dark:open:focus:bg-primary" data-te-ripple-init data-te-ripple-color="light" @if (request()->routeIs('feedbacks.*')) open @endif>
                     <div class="inline-block min-w-[24px] w-auto h-auto p-0 m-0 relative">
                         <svg class="pointer-events-none w-full h-full fill-current" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000">
                             <path d="M0 0h24v24H0z" fill="none" />
@@ -98,7 +98,7 @@
 
         <ul class="block w-full py-2 pr-2 m-0 list-none shadow-none border-t border-solid border-chinese-white dark:border-dark-liver relative">
             <li class="block w-full h-auto p-0 m-0 overflow-hidden relative">
-                <a href="" class="group flex justify-between items-center gap-4 w-full h-12 py-3 px-5 m-0 text-black/[0.60] rounded-r-full no-underline outline-none whitespace-nowrap overflow-hidden select-none relative hover:bg-black/[0.04] active:bg-black/[0.10] focus:bg-black/[0.12] dark:text-white/[0.60] dark:hover:bg-white/[0.04] dark:active:bg-white/[0.10] dark:focus:bg-white/[0.12]" target="_blank">
+                <a href="" class="group flex justify-between items-center gap-4 w-full h-12 py-3 px-5 m-0 text-black/[0.60] rounded-r-full no-underline outline-none whitespace-nowrap overflow-hidden select-none relative hover:bg-black/[0.04] active:bg-black/[0.10] focus:bg-black/[0.12] dark:text-white/[0.60] dark:hover:bg-white/[0.04] dark:active:bg-white/[0.10] dark:focus:bg-white/[0.12]" data-te-ripple-init data-te-ripple-color="light" target="_blank">
                     <div class="flex-1 inline-block w-full h-auto p-0 m-0 overflow-hidden relative">
 						<span class="block w-full h-auto p-0 m-0 subtitle-1 text-black/[0.87] text-left truncate dark:text-white/[0.87]">
 							{{ __('Help Center') }}
@@ -108,7 +108,7 @@
             </li>
 
             <li class="block w-full h-auto p-0 m-0 overflow-hidden relative">
-                <a href="" class="group flex justify-between items-center gap-4 w-full h-12 py-3 px-5 m-0 text-black/[0.60] rounded-r-full no-underline outline-none whitespace-nowrap overflow-hidden select-none relative hover:bg-black/[0.04] active:bg-black/[0.10] focus:bg-black/[0.12] dark:text-white/[0.60] dark:hover:bg-white/[0.04] dark:active:bg-white/[0.10] dark:focus:bg-white/[0.12]" target="_blank">
+                <a href="" class="group flex justify-between items-center gap-4 w-full h-12 py-3 px-5 m-0 text-black/[0.60] rounded-r-full no-underline outline-none whitespace-nowrap overflow-hidden select-none relative hover:bg-black/[0.04] active:bg-black/[0.10] focus:bg-black/[0.12] dark:text-white/[0.60] dark:hover:bg-white/[0.04] dark:active:bg-white/[0.10] dark:focus:bg-white/[0.12]" data-te-ripple-init data-te-ripple-color="light" target="_blank">
                     <div class="flex-1 inline-block w-full h-auto p-0 m-0 overflow-hidden relative">
 						<span class="block w-full h-auto p-0 m-0 subtitle-1 text-black/[0.87] text-left truncate dark:text-white/[0.87]">
 							{{ __('Terms of Service') }}
@@ -118,7 +118,7 @@
             </li>
 
             <li class="block w-full h-auto p-0 m-0 overflow-hidden relative">
-                <a href="" class="group flex justify-between items-center gap-4 w-full h-12 py-3 px-5 m-0 text-black/[0.60] rounded-r-full no-underline outline-none whitespace-nowrap overflow-hidden select-none relative hover:bg-black/[0.04] active:bg-black/[0.10] focus:bg-black/[0.12] dark:text-white/[0.60] dark:hover:bg-white/[0.04] dark:active:bg-white/[0.10] dark:focus:bg-white/[0.12]" target="_blank">
+                <a href="" class="group flex justify-between items-center gap-4 w-full h-12 py-3 px-5 m-0 text-black/[0.60] rounded-r-full no-underline outline-none whitespace-nowrap overflow-hidden select-none relative hover:bg-black/[0.04] active:bg-black/[0.10] focus:bg-black/[0.12] dark:text-white/[0.60] dark:hover:bg-white/[0.04] dark:active:bg-white/[0.10] dark:focus:bg-white/[0.12]" data-te-ripple-init data-te-ripple-color="light" target="_blank">
                     <div class="flex-1 inline-block w-full h-auto p-0 m-0 overflow-hidden relative">
 						<span class="block w-full h-auto p-0 m-0 subtitle-1 text-black/[0.87] text-left truncate dark:text-white/[0.87]">
 							{{ __('Privacy Policy') }}

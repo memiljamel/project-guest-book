@@ -9,7 +9,7 @@
                 </div>
             @else
                 <div class="inline-block w-auto h-auto p-0 m-0 relative">
-                    <a href="{{ $paginator->previousPageUrl() }}" class="block min-w-[64px] w-auto h-9 px-4 py-2 m-0 bg-transparent rounded subtitle-2 text-black/[0.60] text-center border border-solid border-chinese-white align-middle no-underline outline-none cursor-pointer whitespace-nowrap relative hover:bg-black/[0.04] active:bg-black/[0.10] focus:bg-black/[0.12] dark:text-white/[0.60] dark:border-dark-liver dark:hover:bg-white/[0.04] dark:active:bg-white/[0.10] dark:focus:bg-white/[0.12]">
+                    <a href="{{ $paginator->previousPageUrl() }}" class="block min-w-[64px] w-auto h-9 px-4 py-2 m-0 bg-transparent rounded subtitle-2 text-black/[0.60] text-center border border-solid border-chinese-white align-middle no-underline outline-none cursor-pointer whitespace-nowrap relative hover:bg-black/[0.04] active:bg-black/[0.10] focus:bg-black/[0.12] dark:text-white/[0.60] dark:border-dark-liver dark:hover:bg-white/[0.04] dark:active:bg-white/[0.10] dark:focus:bg-white/[0.12]" data-te-ripple-init data-te-ripple-color="light">
                         {{ __('pagination.previous') }}
                     </a>
                 </div>
@@ -17,7 +17,7 @@
 
             @if ($paginator->hasMorePages())
                 <div class="inline-block w-auto h-auto p-0 m-0 relative">
-                    <a href="{{ $paginator->nextPageUrl() }}" class="block min-w-[64px] w-auto h-9 px-4 py-2 m-0 bg-transparent rounded subtitle-2 text-black/[0.60] text-center border border-solid border-chinese-white align-middle no-underline outline-none cursor-pointer whitespace-nowrap relative hover:bg-black/[0.04] active:bg-black/[0.10] focus:bg-black/[0.12] dark:text-white/[0.60] dark:border-dark-liver dark:hover:bg-white/[0.04] dark:active:bg-white/[0.10] dark:focus:bg-white/[0.12]">
+                    <a href="{{ $paginator->nextPageUrl() }}" class="block min-w-[64px] w-auto h-9 px-4 py-2 m-0 bg-transparent rounded subtitle-2 text-black/[0.60] text-center border border-solid border-chinese-white align-middle no-underline outline-none cursor-pointer whitespace-nowrap relative hover:bg-black/[0.04] active:bg-black/[0.10] focus:bg-black/[0.12] dark:text-white/[0.60] dark:border-dark-liver dark:hover:bg-white/[0.04] dark:active:bg-white/[0.10] dark:focus:bg-white/[0.12]" data-te-ripple-init data-te-ripple-color="light">
                         {{ __('pagination.next') }}
                     </a>
                 </div>
@@ -80,7 +80,7 @@
                     </div>
                 @else
                     <div class="inline-block w-auto h-auto p-0 m-0 relative">
-                        <a href="{{ $paginator->url(1) }}" class="flex justify-center items-center w-9 h-9 p-2 m-0 bg-transparent border border-solid border-chinese-white rounded-l subtitle-2 text-black/[0.60] text-center no-underline outline-none cursor-pointer whitespace-nowrap relative hover:bg-black/[0.04] active:bg-black/[0.10] focus:bg-black/[0.12] dark:border-dark-liver dark:text-white/[0.60] dark:hover:bg-white/[0.04] dark:active:bg-white/[0.10] dark:focus:bg-white/[0.12]" rel="prev" aria-label="First page">
+                        <a href="{{ $paginator->url(1) }}" class="flex justify-center items-center w-9 h-9 p-2 m-0 bg-transparent border border-solid border-chinese-white rounded-l subtitle-2 text-black/[0.60] text-center no-underline outline-none cursor-pointer whitespace-nowrap relative hover:bg-black/[0.04] active:bg-black/[0.10] focus:bg-black/[0.12] dark:border-dark-liver dark:text-white/[0.60] dark:hover:bg-white/[0.04] dark:active:bg-white/[0.10] dark:focus:bg-white/[0.12]" rel="prev" aria-label="First page" data-te-ripple-init data-te-ripple-color="light">
                             <svg class="pointer-events-none w-full h-full fill-current"
                                  xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
                                  fill="#000000">
@@ -91,7 +91,7 @@
                     </div>
 
                     <div class="inline-block w-auto h-auto p-0 m-0 relative">
-                        <a href="{{ $paginator->previousPageUrl() }}" class="flex justify-center items-center w-9 h-9 p-2 m-0 bg-transparent border border-solid border-chinese-white rounded-none subtitle-2 text-black/[0.60] text-center no-underline outline-none cursor-pointer whitespace-nowrap relative hover:bg-black/[0.04] active:bg-black/[0.10] focus:bg-black/[0.12] dark:border-dark-liver dark:text-white/[0.60] dark:hover:bg-white/[0.04] dark:active:bg-white/[0.10] dark:focus:bg-white/[0.12]" rel="prev" aria-label="Previous">
+                        <a href="{{ $paginator->previousPageUrl() }}" class="flex justify-center items-center w-9 h-9 p-2 m-0 bg-transparent border border-solid border-chinese-white rounded-none subtitle-2 text-black/[0.60] text-center no-underline outline-none cursor-pointer whitespace-nowrap relative hover:bg-black/[0.04] active:bg-black/[0.10] focus:bg-black/[0.12] dark:border-dark-liver dark:text-white/[0.60] dark:hover:bg-white/[0.04] dark:active:bg-white/[0.10] dark:focus:bg-white/[0.12]" rel="prev" aria-label="Previous" data-te-ripple-init data-te-ripple-color="light">
                             <svg class="pointer-events-none w-full h-full fill-current" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
@@ -119,7 +119,7 @@
                                 </div>
                             @else
                                 <div class="inline-block w-auto h-auto p-0 m-0 relative">
-                                    <a href="{{ $url }}" class="flex justify-center items-center min-w-[36px] w-auto h-9 p-2 m-0 bg-transparent border border-solid border-chinese-white rounded-none subtitle-2 text-black/[0.60] text-center no-underline outline-none cursor-pointer whitespace-nowrap relative hover:bg-black/[0.04] active:bg-black/[0.10] focus:bg-black/[0.12] dark:border-dark-liver dark:text-white/[0.60] dark:hover:bg-white/[0.04] dark:active:bg-white/[0.10] dark:focus:bg-white/[0.12]" aria-current="page" aria-label="{{ __('Go to page :page', ['page' => $page]) }}">
+                                    <a href="{{ $url }}" class="flex justify-center items-center min-w-[36px] w-auto h-9 p-2 m-0 bg-transparent border border-solid border-chinese-white rounded-none subtitle-2 text-black/[0.60] text-center no-underline outline-none cursor-pointer whitespace-nowrap relative hover:bg-black/[0.04] active:bg-black/[0.10] focus:bg-black/[0.12] dark:border-dark-liver dark:text-white/[0.60] dark:hover:bg-white/[0.04] dark:active:bg-white/[0.10] dark:focus:bg-white/[0.12]" aria-current="page" aria-label="{{ __('Go to page :page', ['page' => $page]) }}" data-te-ripple-init data-te-ripple-color="light">
                                         {{ $page }}
                                     </a>
                                 </div>
@@ -130,7 +130,7 @@
 
                 @if ($paginator->hasMorePages())
                     <div class="inline-block w-auto h-auto p-0 m-0 relative">
-                        <a href="{{ $paginator->nextPageUrl() }}" class="flex justify-center items-center w-9 h-9 p-2 m-0 bg-transparent border border-solid border-chinese-white rounded-none subtitle-2 text-black/[0.60] text-center no-underline outline-none cursor-pointer whitespace-nowrap relative hover:bg-black/[0.04] active:bg-black/[0.10] focus:bg-black/[0.12] dark:border-dark-liver dark:text-white/[0.60] dark:hover:bg-white/[0.04] dark:active:bg-white/[0.10] dark:focus:bg-white/[0.12]" rel="next" aria-label="Next">
+                        <a href="{{ $paginator->nextPageUrl() }}" class="flex justify-center items-center w-9 h-9 p-2 m-0 bg-transparent border border-solid border-chinese-white rounded-none subtitle-2 text-black/[0.60] text-center no-underline outline-none cursor-pointer whitespace-nowrap relative hover:bg-black/[0.04] active:bg-black/[0.10] focus:bg-black/[0.12] dark:border-dark-liver dark:text-white/[0.60] dark:hover:bg-white/[0.04] dark:active:bg-white/[0.10] dark:focus:bg-white/[0.12]" rel="next" aria-label="Next" data-te-ripple-init data-te-ripple-color="light">
                             <svg class="pointer-events-none w-full h-full fill-current" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
@@ -139,7 +139,7 @@
                     </div>
 
                     <div class="inline-block w-auto h-auto p-0 m-0 relative">
-                        <a href="{{ $paginator->url($paginator->lastPage()) }}" class="flex justify-center items-center w-9 h-9 p-2 m-0 bg-transparent border border-solid border-chinese-white rounded-r subtitle-2 text-black/[0.60] text-center no-underline outline-none cursor-pointer whitespace-nowrap relative hover:bg-black/[0.04] active:bg-black/[0.10] focus:bg-black/[0.12] dark:border-dark-liver dark:text-white/[0.60] dark:hover:bg-white/[0.04] dark:active:bg-white/[0.10] dark:focus:bg-white/[0.12]" rel="next" aria-label="Last page">
+                        <a href="{{ $paginator->url($paginator->lastPage()) }}" class="flex justify-center items-center w-9 h-9 p-2 m-0 bg-transparent border border-solid border-chinese-white rounded-r subtitle-2 text-black/[0.60] text-center no-underline outline-none cursor-pointer whitespace-nowrap relative hover:bg-black/[0.04] active:bg-black/[0.10] focus:bg-black/[0.12] dark:border-dark-liver dark:text-white/[0.60] dark:hover:bg-white/[0.04] dark:active:bg-white/[0.10] dark:focus:bg-white/[0.12]" rel="next" aria-label="Last page" data-te-ripple-init data-te-ripple-color="light">
                             <svg class="pointer-events-none w-full h-full fill-current" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
                                 <path d="M0 0h24v24H0V0z" fill="none" />
                                 <path d="M5.59 7.41L10.18 12l-4.59 4.59L7 18l6-6-6-6zM16 6h2v12h-2z" />
