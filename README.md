@@ -6,7 +6,6 @@ The Guestbook project is a web application built using Laravel, Tw-Elements, and
 
 ## Table of Contents
 
-- [Visuals](#visuals)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
@@ -20,10 +19,10 @@ The Guestbook project is a web application built using Laravel, Tw-Elements, and
 
 Make sure you have the following installed:
 
-- [PHP](https://php.net/downloads.php) (v8 or higher)
-- [Node.js](https://nodejs.org/) (v18 or higher)
-- [Composer](https://getcomposer.org/) (v2 or higher)
-- [Laragon](https://laragon.org/) / [XAMPP](https://apachefriends.org/download.html)
+- [PHP](https://php.net) (v8 or higher)
+- [Node.js](https://nodejs.org) (v18 or higher)
+- [Composer](https://getcomposer.org) (v2 or higher)
+- [Laragon](https://laragon.org) / [XAMPP](https://apachefriends.org/download.html)
 - PHP extensions (ensure enabled in `php.ini`):
   - [zip](https://www.php.net/manual/en/zip.installation.php)
   - [gd](https://www.php.net/manual/en/book.image.php)
@@ -106,7 +105,7 @@ Feel free to contribute to this project by submitting pull requests or reporting
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
 
 ## Contact
 
