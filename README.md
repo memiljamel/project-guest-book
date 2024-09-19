@@ -6,7 +6,6 @@ The Guestbook project is a web application built using Laravel, Tw-Elements, and
 
 ## Table of Contents
 
-- [Visuals](#visuals)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
