@@ -469,7 +469,7 @@
                                                         {{ $route->method }}
                                                     </td>
                                                     <td class="table-cell w-auto h-[52px] px-4 m-0 body-2 text-black/[0.87] text-left truncate dark:text-white/[0.87]">
-                                                        {{ route($route->route) }}
+                                                        {{ $route->route }}
                                                     </td>
                                                     <td class="table-cell w-auto h-[52px] px-4 m-0 body-2 text-black/[0.87] text-right truncate dark:text-white/[0.87]">
                                                         {{ $route->status }}
@@ -486,7 +486,7 @@
                                                 </tr>
                                             @empty
                                                 <tr class="table-row text-inherit align-middle outline-none relative">
-                                                    <td class="table-cell w-auto h-[52px] px-4 m-0 body-2 text-black/[0.87] text-center truncate dark:text-white/[0.87]" colspan="4">
+                                                    <td class="table-cell w-auto h-[52px] px-4 m-0 body-2 text-black/[0.87] text-center truncate dark:text-white/[0.87]" colspan="8">
                                                         {{ __('No data available.') }}
                                                     </td>
                                                 </tr>
