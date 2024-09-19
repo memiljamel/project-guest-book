@@ -22,7 +22,7 @@ Make sure you have the following installed:
 - [PHP](https://php.net) (v8 or higher)
 - [Node.js](https://nodejs.org) (v18 or higher)
 - [Composer](https://getcomposer.org) (v2 or higher)
-- [Laragon](https://laragon.org) / [XAMPP](https://apachefriends.org/download.html)
+- [Laragon](https://laragon.org) / [XAMPP](https://apachefriends.org)
 - PHP extensions (ensure enabled in `php.ini`):
   - [zip](https://www.php.net/manual/en/zip.installation.php)
   - [gd](https://www.php.net/manual/en/book.image.php)
