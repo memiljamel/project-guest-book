@@ -21,13 +21,13 @@
 
                         @auth
                             <div class="block w-auto h-auto p-0 m-0 relative">
-                                <a href="{{ route('dashboard.index') }}" class="inline-block min-w-[64px] w-auto h-9 p-2 m-0 bg-transparent rounded button text-white text-center shadow-none align-middle truncate outline-none cursor-pointer transition duration-150 ease-in-out relative hover:bg-white/[0.04] active:bg-white/[0.10] focus:bg-white/[0.12] disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:!bg-transparent disabled:active:!bg-transparent disabled:focus:!bg-transparent">
+                                <a href="{{ route('dashboard.index') }}" class="inline-block min-w-[64px] w-auto h-9 p-2 m-0 bg-transparent rounded button text-white text-center shadow-none align-middle truncate outline-none cursor-pointer transition duration-150 ease-in-out relative hover:bg-white/[0.04] active:bg-white/[0.10] focus:bg-white/[0.12] disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:!bg-transparent disabled:active:!bg-transparent disabled:focus:!bg-transparent" data-te-ripple-init data-te-ripple-color="light">
                                     {{ __('Dashboard') }}
                                 </a>
                             </div>
                         @else
                             <div class="block w-auto h-auto p-0 m-0 relative">
-                                <a href="{{ route('login.index') }}" class="inline-block min-w-[64px] w-auto h-9 p-2 m-0 bg-transparent rounded button text-white text-center shadow-none align-middle truncate outline-none cursor-pointer transition duration-150 ease-in-out relative hover:bg-white/[0.04] active:bg-white/[0.10] focus:bg-white/[0.12] disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:!bg-transparent disabled:active:!bg-transparent disabled:focus:!bg-transparent">
+                                <a href="{{ route('login.index') }}" class="inline-block min-w-[64px] w-auto h-9 p-2 m-0 bg-transparent rounded button text-white text-center shadow-none align-middle truncate outline-none cursor-pointer transition duration-150 ease-in-out relative hover:bg-white/[0.04] active:bg-white/[0.10] focus:bg-white/[0.12] disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:!bg-transparent disabled:active:!bg-transparent disabled:focus:!bg-transparent" data-te-ripple-init data-te-ripple-color="light">
                                     {{ __('Login') }}
                                 </a>
                             </div>
@@ -102,7 +102,7 @@
 
                                     {{-- Icon Link --}}
                                     <div class="block w-auto h-auto p-0 m-0 relative">
-                                        <a href="{{ route('registration.create') }}" class="block w-10 h-10 p-2 m-0 bg-transparent rounded-full text-black/[0.60] outline-none cursor-pointer align-middle transition duration-150 ease-in-out hover:bg-black/[0.04] active:bg-black/[0.10] focus:bg-black/[0.12] dark:text-white/[0.60] dark:hover:bg-white/[0.04] dark:active:bg-white/[0.10] dark:focus:bg-white/[0.12]" data-te-toggle="tooltip" title="Create">
+                                        <a href="{{ route('registration.create') }}" class="block w-10 h-10 p-2 m-0 bg-transparent rounded-full text-black/[0.60] outline-none cursor-pointer align-middle transition duration-150 ease-in-out hover:bg-black/[0.04] active:bg-black/[0.10] focus:bg-black/[0.12] dark:text-white/[0.60] dark:hover:bg-white/[0.04] dark:active:bg-white/[0.10] dark:focus:bg-white/[0.12]" data-te-toggle="tooltip" title="Create" data-te-ripple-init data-te-ripple-color="light">
                                             <svg class="pointer-events-none w-full h-full fill-current" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
                                                 <path d="M0 0h24v24H0z" fill="none" />
                                                 <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" />
@@ -224,7 +224,7 @@
 
                 {{-- FAB --}}
                 <div class="block w-auto h-auto p-0 m-0 fixed bottom-6 right-6 z-10">
-                    <a href="{{ route('feedback.create') }}" class="flex justify-center items-center gap-3 min-w-[64px] w-full h-12 px-5 py-2 m-0 rounded-full button text-black/[0.87] text-center align-middle truncate outline-none cursor-pointer relative disabled:opacity-70 disabled:cursor-not-allowed border-none text-white bg-primary shadow-[0_3px_5px_-1px_rgba(0,0,0,0.2),_0_6px_10px_0_rgba(0,0,0,0.14),_0_1px_18px_0_rgba(0,0,0,0.12)] transition-all hover:shadow-[0_5px_5px_-3px_rgba(0,0,0,0.2),_0_8px_10px_1px_rgba(0,0,0,0.14),_0_3px_14px_2px_rgba(0,0,0,0.12)] focus:shadow-[0_5px_5px_-3px_rgba(0,0,0,0.2),_0_8px_10px_1px_rgba(0,0,0,0.14),_0_3px_14px_2px_rgba(0,0,0,0.12)] active:shadow-[0_7px_8px_-4px_rgba(0,0,0,0.2),_0_12px_17px_2px_rgba(0,0,0,0.14),_0_5px_22px_4px_rgba(0,0,0,0.12)] disabled:!shadow-[0_3px_1px_-2px_rgba(0,0,0,0.2),_0_2px_2px_0_rgba(0,0,0,0.14),_0_1px_5px_0_rgba(0,0,0,0.12)]">
+                    <a href="{{ route('feedback.create') }}" class="flex justify-center items-center gap-3 min-w-[64px] w-full h-12 px-5 py-2 m-0 rounded-full button text-black/[0.87] text-center align-middle truncate outline-none cursor-pointer relative disabled:opacity-70 disabled:cursor-not-allowed border-none text-white bg-primary shadow-[0_3px_5px_-1px_rgba(0,0,0,0.2),_0_6px_10px_0_rgba(0,0,0,0.14),_0_1px_18px_0_rgba(0,0,0,0.12)] transition-all hover:shadow-[0_5px_5px_-3px_rgba(0,0,0,0.2),_0_8px_10px_1px_rgba(0,0,0,0.14),_0_3px_14px_2px_rgba(0,0,0,0.12)] focus:shadow-[0_5px_5px_-3px_rgba(0,0,0,0.2),_0_8px_10px_1px_rgba(0,0,0,0.14),_0_3px_14px_2px_rgba(0,0,0,0.12)] active:shadow-[0_7px_8px_-4px_rgba(0,0,0,0.2),_0_12px_17px_2px_rgba(0,0,0,0.14),_0_5px_22px_4px_rgba(0,0,0,0.12)] disabled:!shadow-[0_3px_1px_-2px_rgba(0,0,0,0.2),_0_2px_2px_0_rgba(0,0,0,0.14),_0_1px_5px_0_rgba(0,0,0,0.12)]" data-te-ripple-init data-te-ripple-color="light">
                         <div class="inline-block min-w-[24px] w-auto h-auto p-0 m-0 relative">
                             <svg class="pointer-events-none w-full h-full fill-current" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000">
                                 <path d="M0 0h24v24H0z" fill="none" />
