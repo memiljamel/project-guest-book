@@ -13,7 +13,7 @@
 
                     <div class="flex flex-col flex-grow-0 w-full h-auto p-4 m-0 relative lg:px-6">
                         <div class="inline-block p-0 my-4 overflow-hidden relative">
-                            <img class="block w-12 h-auto p-0 mx-auto align-middle" src="" alt="Guest Book"/>
+                            <img class="block w-12 h-auto p-0 mx-auto align-middle" src="{{ asset('android-chrome-512x512.png') }}" alt="Guest Book"/>
 
                             <span class="block w-full h-auto p-0 mt-3 headline-5 text-black/[0.87] text-center truncate dark:text-white">
                                 {{ __('Reset your password') }}
